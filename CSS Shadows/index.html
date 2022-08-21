@@ -13,11 +13,41 @@
         background-color: coral;
         box-shadow: 10px 10px 5px 1px lightblue;
       }
+
+      #example1 {
+        /* width: 300px;
+        height: 100px; */
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+        margin: 50px;
+      }
+
+      #example2 {
+        /* width: 300px;
+        height: 100px; */
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+        margin: 50px;
+      }
     </style>
   </head>
   <body>
-    <h2>The box-shadow property</h2>
+    <!-- <h2>The box-shadow property</h2>
 
-    <div class="box">This is a div element with box shadow</div>
+    <div class="box">This is a div element with box shadow</div> -->
+    <h1>Multiple Shadow</h1>
+
+    <div id="example1">
+      <h2>Multiple shadows</h2>
+      <p>box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green:</p>
+    </div>
+    <div id="example2">
+      <h2>Multiple shadows with blur effect</h2>
+      <p>
+        box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green:
+      </p>
+    </div>
   </body>
 </html>
