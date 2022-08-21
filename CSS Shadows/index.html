@@ -37,6 +37,7 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
+        margin: 0 auto;
       }
 
       .header {
@@ -48,6 +49,18 @@
 
       .container {
         padding: 10px;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .polaroid {
+        width: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        margin: 0 auto;
       }
     </style>
   </head>
@@ -77,6 +90,17 @@
       </div>
       <div class="container">
         <p>January 1, 2021</p>
+      </div>
+    </div>
+
+    <h1>Create Polaroid Images</h1>
+
+    <p>The box-shadow property can be used to create polaroid images:</p>
+
+    <div class="polaroid">
+      <img src="image/rock600x400.jpg" alt="Norway" />
+      <div class="container">
+        <p>Hardanger, Norway</p>
       </div>
     </div>
   </body>
